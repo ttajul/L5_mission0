@@ -12,21 +12,21 @@ const Navbar = () => {
   return (
     // Navbar container with Bootstrap classes
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    {/* Username, Name, and Icon */}
-    <div className="d-flex align-items-center">
+      {/* Username, Name, and Icon */}
+      <div className="d-flex align-items-center order-0">
         <span className="navbar-text mr-3">Putnam</span>
         <i className="fas fa-user-circle"></i>
       </div>
-      {/* Navbar brand */}
-      <a className="navbar-brand" href="/">Navbar</a>
+
       {/* Navbar toggler button for mobile view */}
       <button className="navbar-toggler" type="button" onClick={toggleNavbar}>
         <span className="navbar-toggler-icon"></span>
       </button>
+
       {/* Collapsible content */}
-      <div className={`collapse navbar-collapse ${isCollapsed ? '' : 'show'}`} id="navbarSupportedContent1">
+      <div className={`collapse navbar-collapse ${isCollapsed ? '' : 'show'} ml-auto`} id="navbarSupportedContent1">
         {/* Navbar links */}
-        <ul className="navbar-nav mr-auto">
+        <ul className="navbar-nav">
           {/* Home link */}
           <li className="nav-item active">
             <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
@@ -46,3 +46,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
