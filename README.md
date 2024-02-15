@@ -113,7 +113,7 @@ To get a local copy up and running follow these simple example steps.
 
   ```
 
-### Installatio
+### Installation
 no need for no1
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -125,7 +125,7 @@ no need for no1
    npm install
    ```
 
-4. NPM start on the terminal `config.js`
+4. NPM start on the terminal 
    ```sh
    npm start
    ```
