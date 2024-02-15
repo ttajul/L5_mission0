@@ -11,6 +11,7 @@ const Navbar = () => {
 
   return (
     // Navbar container with Bootstrap classes
+    
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark text-white">
       {/* Username Icon */}
       <div className="d-flex align-items-center order-0">
@@ -26,7 +27,7 @@ const Navbar = () => {
       {/* Collapsible content */}
       <div className={` collapse navbar-collapse ${isCollapsed ? '' : 'show'} `} id="navbarSupportedContent1">
         {/* Navbar links */}
-        <ul className="navbar-nav ml-auto ">
+        <ul className="navbar-nav ms-auto ">
           {/* Home link */}
           <li className="nav-item active">
             <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
