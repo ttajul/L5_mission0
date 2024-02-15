@@ -7,17 +7,22 @@ const Home = () => {
   const [carouselItems, setCarouselItems] = useState([
     {
       id: 1,
-      title: 'Create your beautiful website with MDBootstrap',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!',
-      imageUrl: 'https://mdbootstrap.com/img/Photos/Others/gradient12.webp',
+      title: 'Al-Haitham',
+      description: 'Sumeru Scribe',
+      imageUrl: 'https://genshin.global/wp-content/uploads/2023/02/alhaitham-official-desktop-wallpaper-genshin-1200x675.jpg',
     },
     // Add more carousel items as needed
     {
       id: 2,
-      title: 'Another Carousel Item',
-      description: 'Another description for carousel item.',
-      imageUrl: 'https://mdbootstrap.com/img/Photos/Others/gradient12.webp',
+      title: 'Ganyu',
+      description: 'Liyue Adeptus',
+      imageUrl: 'https://genshin.global/wp-content/uploads/2022/06/ganyu-hoyolab-official-desktop-wallpaper-genshin-1200x675.jpg',
     },
+    {
+      id: 3,
+      title: 'Zhongli',
+      description: 'Liyue Archon',
+      imageUrl: 'https://genshin.global/wp-content/uploads/2023/12/ancient-treasures-zhongli-event-official-wallpaper-1200x675.jpg'},
   ]);
 
   // Define state variable for active carousel item
