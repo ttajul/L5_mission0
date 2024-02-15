@@ -14,8 +14,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
     {/* Username, Name, and Icon */}
     <div className="d-flex align-items-center">
-        <span className="navbar-text mr-3">Username</span>
-        <span className="navbar-text mr-3">Name</span>
+        <span className="navbar-text mr-3">Putnam</span>
         <i className="fas fa-user-circle"></i>
       </div>
       {/* Navbar brand */}
