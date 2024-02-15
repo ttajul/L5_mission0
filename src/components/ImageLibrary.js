@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './ImageLibrary'
+
 
 const ImageLibrary = () => {
   const images = [
